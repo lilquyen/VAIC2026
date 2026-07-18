@@ -3,7 +3,7 @@ import requests
 import os
 
 # Cấu hình URL backend qua biến môi trường (mặc định chạy local ở port 8001)
-BACKEND_URL = os.getenv("BACKEND_URL", "https://freedom-warnings-delayed-pts.trycloudflare.com")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://maryland-portland-thoughts-unless.trycloudflare.com")
 
 # 1. Cấu hình tiêu đề trang web
 st.set_page_config(page_title="Trợ lý AI Điện Máy Xanh", page_icon="⚡", layout="centered")
